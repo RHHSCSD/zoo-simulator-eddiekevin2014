@@ -18,8 +18,10 @@ public class LandAnim extends Animal {
 
         
         /**
-         * place inside land animal area (middle)
-	 */
+         * Place inside land animal area (middle)
+         * @param x
+         * @param y 
+         */
 	@Override
 	public void place(int x, int y) {
 		// TODO Auto-generated method stub
