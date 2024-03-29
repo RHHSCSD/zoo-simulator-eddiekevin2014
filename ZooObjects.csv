@@ -1,0 +1,6 @@
+ID,Type,PositionX,PositionY,Size
+OBJ01,Food,100,500,S
+OBJ02,Rock,700,600,M
+OBJ03,Tree,200,700,L
+OBJ04,Tree,800,500,L
+OBJ05,Food,800,200,M
