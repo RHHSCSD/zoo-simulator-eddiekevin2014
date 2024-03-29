@@ -232,7 +232,6 @@ public class Animal implements IEntity {
 	
 	/**
          * default constructor
-	 * 
 	 */
 	public Animal() {
 		// TODO Auto-generated constructor stub
@@ -240,14 +239,17 @@ public class Animal implements IEntity {
 
 	/**
          * constructor
-	 * @param 
+	 * @param id
 	 */
 	public Animal(String id) {
 		// TODO Auto-generated constructor stub
 		this.id = id;
 	}
 	
-	
+	/**
+         * Turn method
+         * @param degree 
+         */
 	@Override
 	public void turn(int degree) {
 		// TODO Auto-generated method stub
@@ -260,6 +262,11 @@ public class Animal implements IEntity {
 		System.out.println("\tNew direction: " + getDirection() + " degrees");
 	}
 
+	/**
+         * Place method
+         * @param x
+         * @param y 
+         */
 	@Override
 	public void place(int x, int y) {
 		// TODO Auto-generated method stub
@@ -276,6 +283,9 @@ public class Animal implements IEntity {
 		this.position.move(x, y);
 	}
 
+	/**
+         * Move method
+         */
 	@Override
 	public void move() {
 		// TODO Auto-generated method stub
@@ -300,12 +310,18 @@ public class Animal implements IEntity {
 		}	
 	}
 
+	/**
+         * Sound method
+         */
 	@Override
 	public void makeSound() {
 		// TODO Auto-generated method stub
 		System.out.println("\tSound: " + getSound());
 	}
-
+	
+	/**
+         * Eat method
+         */
 	@Override
 	public void eat() {
 		// TODO Auto-generated method stub
@@ -319,6 +335,9 @@ public class Animal implements IEntity {
 		System.out.println("\tNew Hunger Level: " + getHunger());
 	}
 
+	/**
+         * Sleep method
+         */
 	@Override
 	public void sleep() {
 		// TODO Auto-generated method stub
