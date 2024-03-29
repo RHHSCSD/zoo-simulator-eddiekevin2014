@@ -420,7 +420,6 @@ public class Zoo {
 
     /**
      * Turn Land Animal
-     * @param degree
      */
     public void turnLandAnimals() {
         LandAnim animal;
@@ -437,7 +436,6 @@ public class Zoo {
     
     /**
      * Turn Bird Animal
-     * @param degree
      */
     public void turnBirdAnimals() {
         BirdAnim animal;
@@ -454,7 +452,6 @@ public class Zoo {
     
     /**
      * Turn Water Animals
-     * @param degree
      */
     public void turnWaterAnimals() {
         WaterAnim animal;
