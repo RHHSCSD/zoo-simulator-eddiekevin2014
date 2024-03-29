@@ -28,18 +28,30 @@ public class Image {
 		this.height = height;
 	}
 
+	/**
+         * @return int
+         */
 	public int getWidth() {
 		return width;
 	}
 
+	/**
+         * @param width 
+         */
 	public void setWidth(int width) {
 		this.width = width;
 	}
 
+	/**
+         * @return int
+         */
 	public int getHeight() {
 		return height;
 	}
 
+	/**
+         * @param height 
+         */
 	public void setHeight(int height) {
 		this.height = height;
 	}
