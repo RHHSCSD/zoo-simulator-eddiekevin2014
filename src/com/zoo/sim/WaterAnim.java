@@ -34,8 +34,9 @@ public class WaterAnim extends Animal implements ISwimmable {
 
         
         /**
-         * check if inside the water area
-	 */
+         * Check if water animal can surface above water
+         * @return boolean
+         */
 	@Override
 	public boolean canSurface() {
 		// TODO Auto-generated method stub
@@ -47,8 +48,10 @@ public class WaterAnim extends Animal implements ISwimmable {
 	}
 	
 	/**
-         * place inside water animal area (bottom)
-	 */
+         * Place inside water animal area (bottom)
+         * @param x
+         * @param y 
+         */
 	@Override
 	public void place(int x, int y) {
 		// TODO Auto-generated method stub
@@ -67,6 +70,7 @@ public class WaterAnim extends Animal implements ISwimmable {
 	
 	/**
 	 * get superclass toDetailString and add breathing statistic
+  	 * @return String
 	 */
 	@Override
 	public String toDetailString() {
