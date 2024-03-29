@@ -91,11 +91,20 @@ public class ZooObj implements IObject {
 		this.size = size;
 	}
 
+	/**
+         * Turn (objects cannot turn)
+         * @param degree 
+         */
 	@Override
 	public void turn(int degree) {
 		// TODO Auto-generated method stub
 	}
 
+	/**
+         * Place object 
+         * @param x
+         * @param y 
+         */
 	@Override
 	public void place(int x, int y) {
 		// TODO Auto-generated method stub
@@ -103,7 +112,7 @@ public class ZooObj implements IObject {
 	}
 
 	/**
-	 * 
+	 * toString
 	 */
 	public String toString() {
 		return getId() + " - " + getType();
@@ -111,6 +120,7 @@ public class ZooObj implements IObject {
 	
 	/**
 	 * toDetailString for object statistics
+         * @return String
 	 */
 	public String toDetailString() {
 		String detailStr = new String();
