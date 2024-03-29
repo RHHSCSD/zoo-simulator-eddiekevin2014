@@ -7,8 +7,8 @@ import java.util.Scanner;
  * Main Class of Zoo Simulator
  */
 public class Main {
-
 	/**
+ 	 * Main method of Zoo Simulator
 	 * @param args
 	 */
 	public static void main(String[] args) throws IOException{
