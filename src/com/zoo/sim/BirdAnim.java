@@ -18,7 +18,7 @@ public class BirdAnim extends Animal implements IFlyable {
 	}
 
 	/**
-	 * @return the canFly
+	 * @return canFly
 	 */
 	public boolean isCanFly() {
 		return canFly;
